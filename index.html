@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEATHER FORECASTING</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="title"><h1>WEATHER FORECATING</h1></div>
+      <div class="row">
+        <div class="col-lg-5 col-md-12 col-sm-12 col-12">
+          <div class="container">
+            <div class="card">
+              <div class="search">
+                <input type="text" placeholder="Enter the city name" />
+                <button type="button">Search</button>
+              </div>
+              <div class="main-weather">
+                <img
+                  src="images/images/rain.png"
+                  alt="rain"
+                  class="weather-icon"
+                />
+                <h1 class="temp text-white">0°F</h1>
+                <h2 class="city text-white">City Name</h2>
+                <div class="details">
+                  <div class="col text-white">
+                    <img src="images/images/humidity.png" alt="humidity" />
+                    <div>
+                      <p class="humidity">0 %</p>
+                      <p>Humidity</p>
+                    </div>
+                  </div>
+                  <div class="col text-white">
+                    <img src="images/images/wind.png" alt="wind" />
+                    <div>
+                      <p class="speed">0 km/h</p>
+                      <p>Wind speed</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="days-forecast">
+            <br /><br />
+            <h2 class="day">5-Day's Forecast</h2>
+            <ul class="weather-cards">
+              <li class="card col-md-6 col-sm-12">
+                <h3>( ______ )</h3>
+                <h6>Temp: __C</h6>
+                <h6>Wind: __ M/S</h6>
+                <h6>Humidity: __%</h6>
+              </li>
+              <li class="card">
+                <h3>( ______ )</h3>
+                <h6>Temp: __C</h6>
+                <h6>Wind: __ M/S</h6>
+                <h6>Humidity: __%</h6>
+              </li>
+              <li class="card">
+                <h3>( ______ )</h3>
+                <h6>Temp: __C</h6>
+                <h6>Wind: __ M/S</h6>
+                <h6>Humidity: __%</h6>
+              </li>
+              <li class="card">
+                <h3>( ______ )</h3>
+                <h6>Temp: __C</h6>
+                <h6>Wind: __ M/S</h6>
+                <h6>Humidity: __%</h6>
+              </li>
+              <li class="card">
+                <h3>( ______ )</h3>
+                <h6>Temp: __C</h6>
+                <h6>Wind: __ M/S</h6>
+                <h6>Humidity: __%</h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

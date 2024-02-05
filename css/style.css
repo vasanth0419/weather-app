@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "ProtestRiot";
+  src: url("Protest_Riot/ProtestRiot-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: fantasy;
+}
+
+.title {
+  color: white;
+  border-radius: 30px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+  justify-content: right;
+}
+
+.card {
+  width: 70%;
+  max-width: 470px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  color: white;
+  margin: 30px 10px 0;
+  border-radius: 30px !important;
+  padding: 10px 10px;
+  justify-content: center;
+  text-align: center;
+}
+.search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search input {
+  border: 0;
+  outline: 0;
+  background-color: white;
+  padding: 10px 25px;
+  height: 50px;
+  border-radius: 30px;
+  flex: 1;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-size: px;
+}
+.search button {
+  border: 0;
+
+  margin-top: 20px;
+  outline: 0;
+  background-color: white;
+  padding: 5px;
+  height: 50px;
+  width: 90px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.weather {
+  color: white;
+}
+.weather-icon {
+  width: 170px;
+  margin-top: 30px;
+}
+.weather h1 {
+  font-size: 60px;
+  font-weight: 500;
+}
+.weather h2 {
+  font-size: 35px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+.humidity,
+.wind {
+  font-size: 28px;
+  margin-top: -6px;
+}
+.days-forecast .weather-cards {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.weather-cards .card {
+  color: #fff;
+  width: auto !important;
+  padding: 5px;
+  list-style: none;
+  width: calc(100% / 5);
+  border-radius: 5px;
+
+  padding: 30px;
+}
+.weather-cards .card h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+/* .weather-cards .card img {
+  max-width: 70px;
+  margin: 5px 0 -12px 0;
+} */
+.day {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  text-decoration: underline;
+}
